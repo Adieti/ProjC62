@@ -1,0 +1,39 @@
+#imgA {
+    width: 500px;
+    height: 500px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2em;
+    grid-column: 4 2fr;
+    margin-left: 110px;
+    align-content: center;
+}
+
+.s1 {
+
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#start {
+    background-color: aqua;
+    color: mediumvioletred;
+}
+
+.header1 {
+    color: fuchsia;
+}
+
+.container {
+    text-align: center;
+    color: orangered;
+}

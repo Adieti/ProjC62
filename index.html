@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My first Bootstrap project</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="start">
+        <center>
+            <a href="https://disney.co.za/movies/avengers-endgame" target="_blank"> <img id="imgA" src="download.jpg"> </a>
+            <section class="s1">
+                <h1 class="header1"> Grid Gallery</h1>
+                <div class="grid">
+                    <img src="superman.jpg">
+                    <img src="1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg">
+                    <img src="captain-america-marvel-avengers-assemble-lifesize-standup_a-G-9705906-0.jpg">
+                    <img src="1135428.jpg">
+                    &nbsp;&nbsp;
+                    <br>
+                    <br>
+                    <img class="grid2" src="Batgirl.jpg">
+                    <img class="grid2" src="super%20girl.jpg">
+                    <img class="grid2" src="invisible%20woman.jpg">
+                    <img class="grid2" src="captain%20marvel1.jpg">
+                </div>
+            </section>
+        </center>
+        <div class="container">
+            <h2>Carousel </h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <br><br>
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="captain%20marvel1.jpg" alt="Captain Marvel" style="width:100%">
+                    </div>
+
+                    <div class="item">
+                        <img src="Batgirl.jpg" alt="Bat Girl" style="width:100%">
+                    </div>
+
+                    <div class="item">
+                        <img src="invisible%20woman.jpg" alt="Invisible Woman" style="width:100%">
+                    </div>
+
+                     <div class="item"> 
+                        <img src="super%20girl.jpg" alt="Super Girl"style="width: 100%">
+                    </div>
+                    
+                    <div class="item"> 
+                        <img src="superman.jpg" alt="SuperMan" style="width: 100%">
+                    </div>
+                    
+                     <div class="item"> 
+                        <img src="ironman11.jpg"  alt="Iron Man"  style="width:100%">
+                    </div>
+                    
+                     <div class="item"> 
+                        <img src="1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg"alt="Spider-Man" style="width:100%">
+                    </div>
+                    
+                    <div class="item"> 
+                        <img src="captain-america-marvel-avengers-assemble-lifesize-standup_a-G-9705906-0.jpg" alt="Captain America"style="width">
+                    </div>
+                </div>
+
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
